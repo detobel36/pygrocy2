@@ -7,20 +7,21 @@ interactions:
       Connection:
       - keep-alive
       User-Agent:
-      - python-requests/2.27.1
+      - python-requests/2.32.5
       accept:
       - application/json
     method: GET
-    uri: https://localhost/api/objects/product_groups
+    uri: http://localhost:9192/api/objects/product_groups
   response:
     body:
-      string: '[{"id":"1","name":"01 Sweets","description":null,"row_created_timestamp":"2022-04-22
-        08:37:57"},{"id":"2","name":"02 Bakery products","description":null,"row_created_timestamp":"2022-04-22
-        08:37:57"},{"id":"3","name":"03 Tinned food","description":null,"row_created_timestamp":"2022-04-22
-        08:37:57"},{"id":"4","name":"04 Butchery products","description":null,"row_created_timestamp":"2022-04-22
-        08:37:57"},{"id":"5","name":"05 Vegetables\/Fruits","description":null,"row_created_timestamp":"2022-04-22
-        08:37:57"},{"id":"6","name":"06 Refrigerated products","description":null,"row_created_timestamp":"2022-04-22
-        08:37:57"}]'
+      string: '[{"id":1,"name":"01 Sweets","description":null,"row_created_timestamp":"2026-01-07
+        22:58:31","active":1},{"id":2,"name":"02 Bakery products","description":null,"row_created_timestamp":"2026-01-07
+        22:58:31","active":1},{"id":3,"name":"03 Tinned food","description":null,"row_created_timestamp":"2026-01-07
+        22:58:31","active":1},{"id":4,"name":"04 Butchery products","description":null,"row_created_timestamp":"2026-01-07
+        22:58:31","active":1},{"id":5,"name":"05 Vegetables\/Fruits","description":null,"row_created_timestamp":"2026-01-07
+        22:58:31","active":1},{"id":6,"name":"06 Refrigerated products","description":null,"row_created_timestamp":"2026-01-07
+        22:58:31","active":1},{"id":7,"name":"07 Beverages","description":null,"row_created_timestamp":"2026-01-07
+        22:58:31","active":1}]'
     headers:
       Access-Control-Allow-Headers:
       - '*'
@@ -33,13 +34,13 @@ interactions:
       Content-Type:
       - application/json
       Date:
-      - Fri, 22 Apr 2022 08:40:23 GMT
+      - Wed, 07 Jan 2026 23:00:19 GMT
       Server:
-      - nginx/1.20.2
+      - nginx
       Transfer-Encoding:
       - chunked
       X-Powered-By:
-      - PHP/8.0.13
+      - PHP/8.3.19
     status:
       code: 200
       message: OK

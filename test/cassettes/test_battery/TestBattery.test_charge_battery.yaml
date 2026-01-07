@@ -1,25 +1,25 @@
 interactions:
 - request:
-    body: '{"tracked_time": "2022-04-22T08:40:12.632543+00:00"}'
+    body: '{"tracked_time": "2026-01-08 00:00:15"}'
     headers:
       Accept-Encoding:
       - gzip, deflate
       Connection:
       - keep-alive
       Content-Length:
-      - '52'
+      - '39'
       Content-Type:
       - application/json
       User-Agent:
-      - python-requests/2.27.1
+      - python-requests/2.32.5
       accept:
       - application/json
     method: POST
-    uri: https://localhost/api/batteries/1/charge
+    uri: http://localhost:9192/api/batteries/1/charge
   response:
     body:
-      string: '{"id":"11","battery_id":"1","tracked_time":"2022-04-22 09:40:13","undone":"0","undone_timestamp":null,"row_created_timestamp":"2022-04-22
-        08:40:13"}'
+      string: '{"id":11,"battery_id":1,"tracked_time":"2026-01-08 00:00:15","undone":0,"undone_timestamp":null,"row_created_timestamp":"2026-01-07
+        23:00:15"}'
     headers:
       Access-Control-Allow-Headers:
       - '*'
@@ -32,13 +32,13 @@ interactions:
       Content-Type:
       - application/json
       Date:
-      - Fri, 22 Apr 2022 08:40:13 GMT
+      - Wed, 07 Jan 2026 23:00:15 GMT
       Server:
-      - nginx/1.20.2
+      - nginx
       Transfer-Encoding:
       - chunked
       X-Powered-By:
-      - PHP/8.0.13
+      - PHP/8.3.19
     status:
       code: 200
       message: OK

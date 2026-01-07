@@ -7,21 +7,21 @@ interactions:
       Connection:
       - keep-alive
       User-Agent:
-      - python-requests/2.27.1
+      - python-requests/2.32.5
       accept:
       - application/json
     method: GET
-    uri: https://localhost/api/users
+    uri: http://localhost:9192/api/users
   response:
     body:
-      string: '[{"id":"1","username":"Demo User","first_name":null,"last_name":null,"row_created_timestamp":"2022-04-22
-        08:37:55","display_name":"Demo User","picture_file_name":null},{"id":"2","username":"Demo
-        User 2","first_name":null,"last_name":null,"row_created_timestamp":"2022-04-22
-        08:37:57","display_name":"Demo User 2","picture_file_name":null},{"id":"3","username":"Demo
-        User 3","first_name":null,"last_name":null,"row_created_timestamp":"2022-04-22
-        08:37:57","display_name":"Demo User 3","picture_file_name":null},{"id":"4","username":"Demo
-        User 4","first_name":null,"last_name":null,"row_created_timestamp":"2022-04-22
-        08:37:57","display_name":"Demo User 4","picture_file_name":null}]'
+      string: '[{"id":1,"username":"Demo User","first_name":null,"last_name":null,"row_created_timestamp":"2026-01-07
+        22:58:27","display_name":"Demo User","picture_file_name":null},{"id":2,"username":"Demo
+        User 2","first_name":null,"last_name":null,"row_created_timestamp":"2026-01-07
+        22:58:31","display_name":"Demo User 2","picture_file_name":null},{"id":3,"username":"Demo
+        User 3","first_name":null,"last_name":null,"row_created_timestamp":"2026-01-07
+        22:58:31","display_name":"Demo User 3","picture_file_name":null},{"id":4,"username":"Demo
+        User 4","first_name":null,"last_name":null,"row_created_timestamp":"2026-01-07
+        22:58:31","display_name":"Demo User 4","picture_file_name":null}]'
     headers:
       Access-Control-Allow-Headers:
       - '*'
@@ -34,13 +34,13 @@ interactions:
       Content-Type:
       - application/json
       Date:
-      - Fri, 22 Apr 2022 08:40:27 GMT
+      - Wed, 07 Jan 2026 23:00:20 GMT
       Server:
-      - nginx/1.20.2
+      - nginx
       Transfer-Encoding:
       - chunked
       X-Powered-By:
-      - PHP/8.0.13
+      - PHP/8.3.19
     status:
       code: 200
       message: OK

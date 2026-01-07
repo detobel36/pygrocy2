@@ -1,6 +1,10 @@
 interactions:
 - request:
-    body: "0\r\n\r\n"
+    body: !!python/object/new:_io.BytesIO
+      state: !!python/tuple
+      - !!binary ""
+      - 0
+      - null
     headers:
       Accept-Encoding:
       - gzip, deflate
@@ -11,11 +15,11 @@ interactions:
       Transfer-Encoding:
       - chunked
       User-Agent:
-      - python-requests/2.27.1
+      - python-requests/2.32.5
       accept:
       - '*/*'
     method: PUT
-    uri: https://localhost/api/files/productpictures/MjAuanBn
+    uri: http://localhost:9192/api/files/productpictures/MjAuanBn
   response:
     body:
       string: ''
@@ -31,11 +35,11 @@ interactions:
       Content-Type:
       - application/json
       Date:
-      - Fri, 22 Apr 2022 08:40:23 GMT
+      - Wed, 07 Jan 2026 23:00:19 GMT
       Server:
-      - nginx/1.20.2
+      - nginx
       X-Powered-By:
-      - PHP/8.0.13
+      - PHP/8.3.19
     status:
       code: 204
       message: No Content
@@ -51,11 +55,11 @@ interactions:
       Content-Type:
       - application/json
       User-Agent:
-      - python-requests/2.27.1
+      - python-requests/2.32.5
       accept:
       - '*/*'
     method: PUT
-    uri: https://localhost/api/objects/products/20
+    uri: http://localhost:9192/api/objects/products/20
   response:
     body:
       string: ''
@@ -71,11 +75,11 @@ interactions:
       Content-Type:
       - application/json
       Date:
-      - Fri, 22 Apr 2022 08:40:23 GMT
+      - Wed, 07 Jan 2026 23:00:19 GMT
       Server:
-      - nginx/1.20.2
+      - nginx
       X-Powered-By:
-      - PHP/8.0.13
+      - PHP/8.3.19
     status:
       code: 204
       message: No Content

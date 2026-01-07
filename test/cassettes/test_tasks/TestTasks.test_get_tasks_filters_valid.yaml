@@ -7,16 +7,15 @@ interactions:
       Connection:
       - keep-alive
       User-Agent:
-      - python-requests/2.28.0
+      - python-requests/2.32.5
       accept:
       - application/json
     method: GET
-    uri: https://localhost/api/tasks?query%5B%5D=category_id%3D1
+    uri: http://localhost:9192/api/tasks?query%5B%5D=category_id%3D1
   response:
     body:
-      string: '[{"id":"2","name":"Task2","description":null,"due_date":"2022-06-16","done":"0","done_timestamp":null,"category_id":"1","assigned_to_user_id":"1","row_created_timestamp":"2022-06-17
-        19:33:37"},{"id":"3","name":"Task3","description":null,"due_date":"2022-06-17","done":"0","done_timestamp":null,"category_id":"1","assigned_to_user_id":"1","row_created_timestamp":"2022-06-17
-        19:33:37"}]'
+      string: '[{"id":2,"name":"Task2","description":null,"due_date":"2026-01-06","done":0,"done_timestamp":null,"category_id":1,"assigned_to_user_id":1,"row_created_timestamp":"2026-01-07
+        22:58:35"}]'
     headers:
       Access-Control-Allow-Headers:
       - '*'
@@ -29,15 +28,13 @@ interactions:
       Content-Type:
       - application/json
       Date:
-      - Wed, 06 Jul 2022 18:52:59 GMT
+      - Wed, 07 Jan 2026 23:00:20 GMT
       Server:
-      - nginx/1.22.0
+      - nginx
       Transfer-Encoding:
       - chunked
       X-Powered-By:
-      - PHP/8.0.20
-      content-length:
-      - '385'
+      - PHP/8.3.19
     status:
       code: 200
       message: OK

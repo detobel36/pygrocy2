@@ -7,16 +7,16 @@ interactions:
       Connection:
       - keep-alive
       User-Agent:
-      - python-requests/2.27.1
+      - python-requests/2.32.5
       accept:
       - application/json
     method: GET
-    uri: https://localhost/api/batteries/1
+    uri: http://localhost:9192/api/batteries/1
   response:
     body:
-      string: '{"battery":{"id":"1","name":"Battery1","description":"Warranty ends
-        2023","used_in":"TV remote control","charge_interval_days":"180","row_created_timestamp":"2022-04-22
-        08:37:58","active":"1"},"last_charged":"2021-10-24 23:59:59","charge_cycles_count":4,"next_estimated_charge_time":"2022-04-22
+      string: '{"battery":{"id":1,"name":"Battery1","description":"Warranty ends 2023","used_in":"TV
+        remote control","charge_interval_days":180,"row_created_timestamp":"2026-01-07
+        22:58:35","active":1},"last_charged":"2025-07-11 23:59:59","charge_cycles_count":4,"next_estimated_charge_time":"2026-01-07
         23:59:59"}'
     headers:
       Access-Control-Allow-Headers:
@@ -30,13 +30,13 @@ interactions:
       Content-Type:
       - application/json
       Date:
-      - Fri, 22 Apr 2022 08:40:13 GMT
+      - Wed, 07 Jan 2026 23:00:15 GMT
       Server:
-      - nginx/1.20.2
+      - nginx
       Transfer-Encoding:
       - chunked
       X-Powered-By:
-      - PHP/8.0.13
+      - PHP/8.3.19
     status:
       code: 200
       message: OK

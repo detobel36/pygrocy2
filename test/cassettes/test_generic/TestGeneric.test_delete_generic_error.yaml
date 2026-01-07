@@ -6,12 +6,14 @@ interactions:
       - gzip, deflate
       Connection:
       - keep-alive
+      Content-Length:
+      - '0'
       User-Agent:
-      - python-requests/2.27.1
+      - python-requests/2.32.5
       accept:
       - application/json
     method: DELETE
-    uri: https://localhost/api/objects/tasks/30000
+    uri: http://localhost:9192/api/objects/tasks/30000
   response:
     body:
       string: '{"error_message":"Object not found"}'
@@ -27,14 +29,14 @@ interactions:
       Content-Type:
       - application/json
       Date:
-      - Fri, 22 Apr 2022 08:40:16 GMT
+      - Wed, 07 Jan 2026 23:00:16 GMT
       Server:
-      - nginx/1.20.2
+      - nginx
       Transfer-Encoding:
       - chunked
       X-Powered-By:
-      - PHP/8.0.13
+      - PHP/8.3.19
     status:
-      code: 404
-      message: Not Found
+      code: 400
+      message: Bad Request
 version: 1

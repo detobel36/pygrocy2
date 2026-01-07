@@ -9,11 +9,11 @@ interactions:
       Content-Length:
       - '0'
       User-Agent:
-      - python-requests/2.27.1
+      - python-requests/2.32.5
       accept:
       - application/json
     method: POST
-    uri: https://localhost/api/recipes/4464/consume
+    uri: http://localhost:9192/api/recipes/4464/consume
   response:
     body:
       string: '{"error_message":"Recipe does not exist"}'
@@ -29,13 +29,13 @@ interactions:
       Content-Type:
       - application/json
       Date:
-      - Sat, 18 Jun 2022 14:16:54 GMT
+      - Wed, 07 Jan 2026 23:00:16 GMT
       Server:
-      - nginx/1.22.0
+      - nginx
       Transfer-Encoding:
       - chunked
       X-Powered-By:
-      - PHP/8.0.20
+      - PHP/8.3.19
     status:
       code: 400
       message: Bad Request

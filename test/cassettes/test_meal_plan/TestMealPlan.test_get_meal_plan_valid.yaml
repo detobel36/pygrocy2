@@ -7,28 +7,28 @@ interactions:
       Connection:
       - keep-alive
       User-Agent:
-      - python-requests/2.27.1
+      - python-requests/2.32.5
       accept:
       - application/json
     method: GET
-    uri: https://localhost/api/objects/meal_plan
+    uri: http://localhost:9192/api/objects/meal_plan
   response:
     body:
-      string: '[{"id":"1","day":"2022-04-18","type":"recipe","recipe_id":"1","recipe_servings":"1","note":null,"product_id":null,"product_amount":"0.0","product_qu_id":null,"row_created_timestamp":"2022-04-22
-        08:37:58","done":"0","section_id":"2"},{"id":"2","day":"2022-04-19","type":"recipe","recipe_id":"2","recipe_servings":"1","note":null,"product_id":null,"product_amount":"0.0","product_qu_id":null,"row_created_timestamp":"2022-04-22
-        08:37:58","done":"0","section_id":"2"},{"id":"3","day":"2022-04-20","type":"recipe","recipe_id":"3","recipe_servings":"1","note":null,"product_id":null,"product_amount":"0.0","product_qu_id":null,"row_created_timestamp":"2022-04-22
-        08:37:58","done":"0","section_id":"3"},{"id":"4","day":"2022-04-21","type":"recipe","recipe_id":"4","recipe_servings":"1","note":null,"product_id":null,"product_amount":"0.0","product_qu_id":null,"row_created_timestamp":"2022-04-22
-        08:37:58","done":"0","section_id":"1"},{"id":"5","day":"2022-04-22","type":"recipe","recipe_id":"2","recipe_servings":"1","note":null,"product_id":null,"product_amount":"0.0","product_qu_id":null,"row_created_timestamp":"2022-04-22
-        08:37:58","done":"0","section_id":"2"},{"id":"6","day":"2022-04-23","type":"recipe","recipe_id":"1","recipe_servings":"1","note":null,"product_id":null,"product_amount":"0.0","product_qu_id":null,"row_created_timestamp":"2022-04-22
-        08:37:58","done":"0","section_id":"2"},{"id":"7","day":"2022-04-24","type":"recipe","recipe_id":"4","recipe_servings":"1","note":null,"product_id":null,"product_amount":"0.0","product_qu_id":null,"row_created_timestamp":"2022-04-22
-        08:37:58","done":"0","section_id":"2"},{"id":"8","day":"2022-04-19","type":"note","recipe_id":null,"recipe_servings":"1","note":"This
-        is a note","product_id":null,"product_amount":"0.0","product_qu_id":null,"row_created_timestamp":"2022-04-22
-        08:37:58","done":"0","section_id":"1"},{"id":"9","day":"2022-04-17","type":"product","recipe_id":null,"recipe_servings":"1","note":null,"product_id":"3","product_amount":"1.0","product_qu_id":null,"row_created_timestamp":"2022-04-22
-        08:37:58","done":"0","section_id":"3"},{"id":"10","day":"2022-04-18","type":"product","recipe_id":null,"recipe_servings":"1","note":null,"product_id":"9","product_amount":"1.0","product_qu_id":null,"row_created_timestamp":"2022-04-22
-        08:37:58","done":"0","section_id":"1"},{"id":"11","day":"2022-04-20","type":"product","recipe_id":null,"recipe_servings":"1","note":null,"product_id":"25","product_amount":"1.0","product_qu_id":null,"row_created_timestamp":"2022-04-22
-        08:37:58","done":"0","section_id":"1"},{"id":"12","day":"2022-04-23","type":"note","recipe_id":null,"recipe_servings":"1","note":"Some
-        good snacks","product_id":null,"product_amount":"0.0","product_qu_id":null,"row_created_timestamp":"2022-04-22
-        08:37:58","done":"0","section_id":"3"}]'
+      string: '[{"id":1,"day":"2026-01-05","type":"recipe","recipe_id":1,"recipe_servings":1,"note":null,"product_id":null,"product_amount":0,"product_qu_id":null,"row_created_timestamp":"2026-01-07
+        22:58:34","done":0,"section_id":2},{"id":2,"day":"2026-01-06","type":"recipe","recipe_id":2,"recipe_servings":1,"note":null,"product_id":null,"product_amount":0,"product_qu_id":null,"row_created_timestamp":"2026-01-07
+        22:58:34","done":0,"section_id":2},{"id":3,"day":"2026-01-07","type":"recipe","recipe_id":3,"recipe_servings":1,"note":null,"product_id":null,"product_amount":0,"product_qu_id":null,"row_created_timestamp":"2026-01-07
+        22:58:34","done":0,"section_id":3},{"id":4,"day":"2026-01-08","type":"recipe","recipe_id":4,"recipe_servings":1,"note":null,"product_id":null,"product_amount":0,"product_qu_id":null,"row_created_timestamp":"2026-01-07
+        22:58:35","done":0,"section_id":1},{"id":5,"day":"2026-01-09","type":"recipe","recipe_id":2,"recipe_servings":1,"note":null,"product_id":null,"product_amount":0,"product_qu_id":null,"row_created_timestamp":"2026-01-07
+        22:58:35","done":0,"section_id":2},{"id":6,"day":"2026-01-10","type":"recipe","recipe_id":1,"recipe_servings":1,"note":null,"product_id":null,"product_amount":0,"product_qu_id":null,"row_created_timestamp":"2026-01-07
+        22:58:35","done":0,"section_id":2},{"id":7,"day":"2026-01-11","type":"recipe","recipe_id":4,"recipe_servings":1,"note":null,"product_id":null,"product_amount":0,"product_qu_id":null,"row_created_timestamp":"2026-01-07
+        22:58:35","done":0,"section_id":2},{"id":8,"day":"2026-01-06","type":"note","recipe_id":null,"recipe_servings":1,"note":"This
+        is a note","product_id":null,"product_amount":0,"product_qu_id":null,"row_created_timestamp":"2026-01-07
+        22:58:35","done":0,"section_id":1},{"id":9,"day":"2026-01-04","type":"product","recipe_id":null,"recipe_servings":1,"note":null,"product_id":3,"product_amount":1,"product_qu_id":null,"row_created_timestamp":"2026-01-07
+        22:58:35","done":0,"section_id":3},{"id":10,"day":"2026-01-05","type":"product","recipe_id":null,"recipe_servings":1,"note":null,"product_id":9,"product_amount":1,"product_qu_id":null,"row_created_timestamp":"2026-01-07
+        22:58:35","done":0,"section_id":1},{"id":11,"day":"2026-01-07","type":"product","recipe_id":null,"recipe_servings":1,"note":null,"product_id":25,"product_amount":1,"product_qu_id":null,"row_created_timestamp":"2026-01-07
+        22:58:35","done":0,"section_id":1},{"id":12,"day":"2026-01-10","type":"note","recipe_id":null,"recipe_servings":1,"note":"Some
+        good snacks","product_id":null,"product_amount":0,"product_qu_id":null,"row_created_timestamp":"2026-01-07
+        22:58:35","done":0,"section_id":3}]'
     headers:
       Access-Control-Allow-Headers:
       - '*'
@@ -41,13 +41,13 @@ interactions:
       Content-Type:
       - application/json
       Date:
-      - Fri, 22 Apr 2022 08:40:18 GMT
+      - Wed, 07 Jan 2026 23:00:17 GMT
       Server:
-      - nginx/1.20.2
+      - nginx
       Transfer-Encoding:
       - chunked
       X-Powered-By:
-      - PHP/8.0.13
+      - PHP/8.3.19
     status:
       code: 200
       message: OK

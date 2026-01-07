@@ -11,11 +11,11 @@ interactions:
       Content-Type:
       - application/json
       User-Agent:
-      - python-requests/2.27.1
+      - python-requests/2.32.5
       accept:
       - application/json
     method: POST
-    uri: https://localhost/api/stock/shoppinglist/clear
+    uri: http://localhost:9192/api/stock/shoppinglist/clear
   response:
     body:
       string: ''
@@ -31,11 +31,11 @@ interactions:
       Content-Type:
       - application/json
       Date:
-      - Fri, 22 Apr 2022 08:40:24 GMT
+      - Wed, 07 Jan 2026 23:00:19 GMT
       Server:
-      - nginx/1.20.2
+      - nginx
       X-Powered-By:
-      - PHP/8.0.13
+      - PHP/8.3.19
     status:
       code: 204
       message: No Content

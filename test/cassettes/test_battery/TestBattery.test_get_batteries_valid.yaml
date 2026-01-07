@@ -7,18 +7,26 @@ interactions:
       Connection:
       - keep-alive
       User-Agent:
-      - python-requests/2.27.1
+      - python-requests/2.32.5
       accept:
       - application/json
     method: GET
-    uri: https://localhost/api/batteries
+    uri: http://localhost:9192/api/batteries
   response:
     body:
-      string: '[{"id":"1","battery_id":"1","last_tracked_time":"2021-10-24 23:59:59","next_estimated_charge_time":"2022-04-22
-        23:59:59"},{"id":"2","battery_id":"2","last_tracked_time":"2022-03-03 09:38:06","next_estimated_charge_time":"2999-12-31
-        23:59:59"},{"id":"3","battery_id":"3","last_tracked_time":"2022-02-16 09:38:06","next_estimated_charge_time":"2022-04-17
-        09:38:06"},{"id":"4","battery_id":"4","last_tracked_time":"2022-02-25 09:38:06","next_estimated_charge_time":"2022-04-26
-        09:38:06"}]'
+      string: '[{"id":1,"battery_id":1,"last_tracked_time":"2025-07-11 23:59:59","next_estimated_charge_time":"2026-01-07
+        23:59:59","battery":{"id":1,"name":"Battery1","description":"Warranty ends
+        2023","used_in":"TV remote control","charge_interval_days":180,"row_created_timestamp":"2026-01-07
+        22:58:35","active":1}},{"id":2,"battery_id":2,"last_tracked_time":"2025-11-18
+        22:58:43","next_estimated_charge_time":"2999-12-31 23:59:59","battery":{"id":2,"name":"Battery2","description":"Warranty
+        ends 2022","used_in":"Alarm clock","charge_interval_days":0,"row_created_timestamp":"2026-01-07
+        22:58:35","active":1}},{"id":3,"battery_id":3,"last_tracked_time":"2025-11-03
+        22:58:43","next_estimated_charge_time":"2026-01-02 22:58:43","battery":{"id":3,"name":"Battery3","description":"Warranty
+        ends 2022","used_in":"Heat remote control","charge_interval_days":60,"row_created_timestamp":"2026-01-07
+        22:58:35","active":1}},{"id":4,"battery_id":4,"last_tracked_time":"2025-11-12
+        22:58:43","next_estimated_charge_time":"2026-01-11 22:58:43","battery":{"id":4,"name":"Battery4","description":"Warranty
+        ends 2028","used_in":"Heat remote control","charge_interval_days":60,"row_created_timestamp":"2026-01-07
+        22:58:35","active":1}}]'
     headers:
       Access-Control-Allow-Headers:
       - '*'
@@ -31,13 +39,13 @@ interactions:
       Content-Type:
       - application/json
       Date:
-      - Fri, 22 Apr 2022 08:40:13 GMT
+      - Wed, 07 Jan 2026 23:00:15 GMT
       Server:
-      - nginx/1.20.2
+      - nginx
       Transfer-Encoding:
       - chunked
       X-Powered-By:
-      - PHP/8.0.13
+      - PHP/8.3.19
     status:
       code: 200
       message: OK

@@ -30,4 +30,10 @@ dev = [
 ]
 
 [tool.uv]
-package = false
+package = true
+
+[tool.ruff]
+extend-exclude = ["test/cassettes"]
+
+[tool.ruff.format]
+exclude = ["test/cassettes"]
