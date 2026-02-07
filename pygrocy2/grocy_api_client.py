@@ -703,6 +703,10 @@ class GrocyApiClient(object):
         }
         self._do_post_request("stock/shoppinglist/remove-product", data)
 
+    def mark_product_in_shoppping_list(self, product_id: int, done: boolean):
+        data = {"done": 1 if done else 0}
+        self._do_put_request(f"objects/shopping_list/{product_id}", data)
+
     def get_product_groups(
         self, query_filters: list[str] | None = None
     ) -> list[LocationData]:
